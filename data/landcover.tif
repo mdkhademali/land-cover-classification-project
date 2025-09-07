@@ -1,0 +1,15 @@
+import numpy as np
+import rasterio
+
+# Dummy raster data (100x100 pixels)
+width, height = 100, 100
+nir_band = np.random.randint(50, 255, (height, width), dtype=np.uint8)
+red_band = np.random.randint(20, 200, (height, width), dtype=np.uint8)
+
+with rasterio.open(
+    "data/landcover.tif", "w",
+    driver="GTiff", width=width, height=height,
+    count=2, dtype=np.uint8
+) as dst:
+    dst.write(nir_band, 1)  # NIR Band
+    dst.write(red_band, 2)  # Red Band

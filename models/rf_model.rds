@@ -1,0 +1,1 @@
+saveRDS(rf_model, "models/rf_model.rds")

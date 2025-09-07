@@ -1,0 +1,2 @@
+import joblib
+joblib.dump(clf, "models/rf_model.pkl")
