@@ -36,7 +36,6 @@ The dataset consists of satellite imagery with multiple spectral bands, includin
 
 > **Note:** You can use publicly available datasets such as **Sentinel-2**, **Landsat-8**, or your own georeferenced images.
 
-
 ---
 
 ## Outputs
