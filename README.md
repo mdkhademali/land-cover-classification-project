@@ -1,4 +1,4 @@
-# Land Cover Classification Project 🌍
+## Land Cover Classification Project
 
 This project performs **Land Cover Classification** using **Remote Sensing Data**. It leverages machine learning techniques to classify different land cover types based on satellite imagery. The project provides implementations in both **Python** and **R**, using **Random Forest** as the primary classifier.
 
