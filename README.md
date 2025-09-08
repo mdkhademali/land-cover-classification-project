@@ -34,8 +34,6 @@ The dataset consists of satellite imagery with multiple spectral bands, includin
 * Near-Infrared (NIR)
 * NDVI (calculated from NIR and Red bands)
 
-> **Note:** You can use publicly available datasets such as **Sentinel-2**, **Landsat-8**, or your own georeferenced images.
-
 ---
 
 ## Outputs
